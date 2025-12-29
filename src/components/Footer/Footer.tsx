@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { Facebook, Instagram, Clock, Building2, MapPin, Phone, Mail, ArrowRight } from 'lucide-react';
 import { CONTACT_INFO, WORKING_HOURS } from '../../constants/config';
 
@@ -153,17 +153,24 @@ export const Footer = () => {
             <p className="text-sm text-gray-400">
               &copy; {new Date().getFullYear()} LOKI N-4. Sva prava zadržana.
             </p>
-            <p className="text-sm text-gray-500">
-              Izrada sajta:{' '}
-              <a 
-                href="https://aisajt.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-blue-400 hover:text-blue-300 transition-colors"
+            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+              <p className="text-sm text-gray-500">
+                Website by:{' '}
+                <a 
+                  href="https://aisajt.com" 
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
+                >
+                  AiSajt
+                </a>
+              </p>
+              <span className="hidden sm:inline text-gray-600">|</span>
+              <Link 
+                to="/izrada-sajta"
+                className="text-sm text-gray-500 hover:text-blue-400 transition-colors"
               >
-                AiSajt.com
-              </a>
-            </p>
+                O projektu
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ Allow: /
 Allow: /o-nama
 Allow: /kontakt
 Allow: /galerija
+Allow: /izrada-sajta
 
 # Product pages
 Allow: /proizvodi/betonski-blokovi

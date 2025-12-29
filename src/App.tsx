@@ -9,6 +9,7 @@ import { BetonskeCeviPage } from './pages/BetonskeCeviPage';
 import { SahtoviiPoklopciPage } from './pages/SahtoviiPoklopciPage';
 import { EuroGrillPage } from './pages/EuroGrillPage';
 import { GalerijaPage } from './pages/GalerijaPage';
+import { CaseStudyPage } from './pages/CaseStudyPage';
 import { LoadingScreen } from './components/LoadingScreen/LoadingScreen';
 
 const PageTransition = ({ children }: { children: React.ReactNode }) => {
@@ -70,6 +71,7 @@ function App() {
             <Route path="/proizvodi/euro-grill" element={<EuroGrillPage />} />
             <Route path="/galerija" element={<GalerijaPage />} />
             <Route path="/kontakt" element={<ContactPage />} />
+            <Route path="/izrada-sajta" element={<CaseStudyPage />} />
           </Routes>
         </PageTransition>
       </div>
