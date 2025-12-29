@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Main pages
+Allow: /o-nama
+Allow: /kontakt
+Allow: /galerija
+
+# Product pages
+Allow: /proizvodi/betonski-blokovi
+Allow: /proizvodi/betonske-cevi
+Allow: /proizvodi/sahtovi-i-poklopci
+Allow: /proizvodi/euro-grill
+
+# Sitemaps
+Sitemap: https://lokin4.rs/sitemap.xml
