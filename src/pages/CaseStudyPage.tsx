@@ -150,7 +150,7 @@ export const CaseStudyPage = () => {
                   AiSajt
                 </a> tim, koji je obezbedio kompletnu uslugu web dizajna i razvoja. 
                 Stručnjaci iz <a 
-                  href="https://aisajt.com/izrada-sajtova" 
+                  href="https://aisajt.com/izrada-sajta-cena" 
                   className="text-blue-600 hover:text-blue-700 font-semibold underline"
                 >
                   web dizajna i razvoja
